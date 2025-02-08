@@ -8,7 +8,7 @@ const props = defineProps({
     default: 'Search',
   },
   modelValue: {
-    type: [String, Number], // ใช้ array แทน String || Number
+    type: [String, Number],
     default: '',
   },
   label: {
